@@ -1,12 +1,13 @@
 //1 
-
+document.write("la Fecha y hora es: ");
+document.write("<br> ");
 var fecha = new Date();
-document.write(fecha);
+document.write(fecha); 
 
 
 
 //2
-document.write(" " + " " );
+document.write("<br> ");
 var nombre;
 var edad;
 nombre = prompt("¿Ingresa tu nombre?");
@@ -21,9 +22,11 @@ var areglo = ["Lunes", "Martes", "Miercoles","Jueves","Viernes","Sabado","Doming
 
 console.log(areglo);
 //4
+document.write("<br> ");
 document.write(" " + " ");
 var areglo2 = ["Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado", "Domingo"];
 document.write("    " + "El areglo La semana tiene" + " "+ areglo2.length +" "+ "Dias");
+document.write("<br> ");
 //5 suma
 function suma() {
     var num1 = Number(document.getElementById("n1").value);
